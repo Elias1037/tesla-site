@@ -6,7 +6,7 @@
 <title>TESLA · 加速世界向可持续能源的转变</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
 <style>
   :root{
     --bg:#050507;
@@ -534,7 +534,7 @@
 
 <!-- 1. HERO -->
 <section id="hero">
-  <div class="hero-bg" style="background-image:url('assets/hero.png')"></div>
+  <div class="hero-bg" style="background-image:url('assets/hero.jpg')"></div>
   <div class="hero-glow"></div>
   <div class="wrap reveal">
     <h1>TESLA</h1>
@@ -558,7 +558,7 @@
 
 <!-- 2. MODELS -->
 <section id="models">
-  <div class="sec-bg" data-speed="0.08"><div class="sec-bg-img" style="background-image:url('assets/studio.png')"></div></div>
+  <div class="sec-bg" data-speed="0.08"><div class="sec-bg-img" data-bg="assets/studio.jpg"></div></div>
   <div class="wrap">
     <div class="reveal">
       <div class="eyebrow">Product Line</div>
@@ -607,7 +607,7 @@
 
 <!-- 3. AUTOPILOT -->
 <section id="autopilot">
-  <div class="sec-bg" data-speed="0.10"><div class="sec-bg-img" style="background-image:url('assets/autopilot.png')"></div></div>
+  <div class="sec-bg" data-speed="0.10"><div class="sec-bg-img" data-bg="assets/autopilot.jpg"></div></div>
   <div class="wrap">
     <div class="reveal">
       <div class="eyebrow">Autopilot / FSD</div>
@@ -654,7 +654,7 @@
 
 <!-- 3.5 核心技术 -->
 <section id="tech">
-  <div class="tech-bg" style="background-image:url('assets/gigafactory.png')"></div>
+  <div class="tech-bg" data-bg="assets/gigafactory.jpg"></div>
   <div class="wrap">
     <div class="reveal">
       <div class="eyebrow">Core Technology</div>
@@ -691,9 +691,9 @@
       <p class="lead">极简不是减法，而是把每一处形式都交给功能。从油泥模型到座舱与电芯，特斯拉的设计语言贯穿始终。</p>
     </div>
     <div class="design-grid">
-      <figure class="reveal delay1"><img src="assets/design.png" alt="设计模型"><figcaption>CLAY MODEL</figcaption></figure>
-      <figure class="reveal delay2"><img src="assets/interior.png" alt="座舱"><figcaption>CABIN</figcaption></figure>
-      <figure class="reveal delay1"><img src="assets/battery.png" alt="电芯"><figcaption>CELL 4680</figcaption></figure>
+      <figure class="reveal delay1"><img loading="lazy" src="assets/design.jpg" alt="设计模型"><figcaption>CLAY MODEL</figcaption></figure>
+      <figure class="reveal delay2"><img loading="lazy" src="assets/interior.jpg" alt="座舱"><figcaption>CABIN</figcaption></figure>
+      <figure class="reveal delay1"><img loading="lazy" src="assets/battery.jpg" alt="电芯"><figcaption>CELL 4680</figcaption></figure>
     </div>
   </div>
 </section>
@@ -707,17 +707,17 @@
       <p class="lead">太阳能发电、储能与用电闭环——特斯拉构建端到端的清洁能源生态。</p>
     </div>
     <div class="panel-row">
-      <div class="panel reveal delay1" style="--img:url('assets/solar.png')"><div class="big">01</div><h3>Solar Roof</h3><p>一体化太阳能屋顶，把阳光变成家的电力，外观如普通瓦片。</p></div>
-      <div class="panel reveal delay2" style="--img:url('assets/powerwall.png')"><div class="big">02</div><h3>Powerwall</h3><p>家用储能电池，白天存电、夜间供电，断电也能从容。</p></div>
-      <div class="panel reveal delay1" style="--img:url('assets/megapack.png')"><div class="big">03</div><h3>Megapack</h3><p>电网级储能，为城市与社区提供清洁、稳定的电力支撑。</p></div>
-      <div class="panel reveal delay2" style="--img:url('assets/grid.png')"><div class="big">04</div><h3>虚拟电厂</h3><p>聚合分散储能，参与电网调峰，让每个家庭成为能源网络节点。</p></div>
+      <div class="panel reveal delay1" data-img="assets/solar.jpg"><div class="big">01</div><h3>Solar Roof</h3><p>一体化太阳能屋顶，把阳光变成家的电力，外观如普通瓦片。</p></div>
+      <div class="panel reveal delay2" data-img="assets/powerwall.jpg"><div class="big">02</div><h3>Powerwall</h3><p>家用储能电池，白天存电、夜间供电，断电也能从容。</p></div>
+      <div class="panel reveal delay1" data-img="assets/megapack.jpg"><div class="big">03</div><h3>Megapack</h3><p>电网级储能，为城市与社区提供清洁、稳定的电力支撑。</p></div>
+      <div class="panel reveal delay2" data-img="assets/grid.jpg"><div class="big">04</div><h3>虚拟电厂</h3><p>聚合分散储能，参与电网调峰，让每个家庭成为能源网络节点。</p></div>
     </div>
   </div>
 </section>
 
 <!-- 5. CHARGING -->
 <section id="charging">
-  <div class="sec-bg" data-speed="0.10"><div class="sec-bg-img" style="background-image:url('assets/supercharger.png')"></div></div>
+  <div class="sec-bg" data-speed="0.10"><div class="sec-bg-img" data-bg="assets/supercharger.jpg"></div></div>
   <div class="wrap">
     <div class="reveal">
       <div class="eyebrow">Supercharging</div>
@@ -755,7 +755,7 @@
 
 <!-- 6. VISION -->
 <section id="vision">
-  <div class="sec-bg" data-speed="0.08"><div class="sec-bg-img" style="background-image:url('assets/grid.png')"></div></div>
+  <div class="sec-bg" data-speed="0.08"><div class="sec-bg-img" data-bg="assets/grid.jpg"></div></div>
   <div class="vision-rings"><i></i><i></i><i></i></div>
   <div class="wrap reveal">
     <div class="eyebrow" style="text-align:center">Our Mission</div>
@@ -904,6 +904,19 @@
     es.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
   },{threshold:.18});
   document.querySelectorAll('.reveal, .reveal-left').forEach(el=>io.observe(el));
+
+
+  // 背景图懒加载：滚到附近才下载，首屏只请求 hero 一张
+  const lazyBg = new IntersectionObserver((es)=>{
+    es.forEach(e=>{
+      if(!e.isIntersecting) return;
+      const el=e.target, b=el.dataset.bg, p=el.dataset.img;
+      if(b) el.style.backgroundImage = "url('"+b+"')";
+      if(p) el.style.setProperty('--img', "url('"+p+"')");
+      lazyBg.unobserve(el);
+    });
+  },{rootMargin:'900px 0px'});
+  document.querySelectorAll('[data-bg],[data-img]').forEach(el=>lazyBg.observe(el));
 
   // 车型切换数据
   const models = [
